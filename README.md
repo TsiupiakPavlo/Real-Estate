@@ -4,9 +4,9 @@ Developed by ThreeMind
 
 A simple, reponsive  website. Built with:
 
-- Python 🐍
-- Django 🎸
-- Bootstrap 4 🌈
+- Python
+- Django
+- Bootstrap 4
 - Vanilla JS
 - JQuery
 
