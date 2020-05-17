@@ -1,6 +1,6 @@
 # Real Estate Site
 
-#####Developed by ThreeMind
+Developed by ThreeMind
 
 A simple, reponsive  website. Built with:
 
@@ -114,6 +114,33 @@ A simple, reponsive  website. Built with:
 - phone: STR
 - message: TEXT
 - contact_date: DATE
+
+## Screenshots
+
+- **HOME**
+
+![Home](https://github.com/TsiupiakPavlo/Real-Estate/blob/master/screenshots/s1.JPG)
+
+- **Listings** 
+
+
+![Listings](https://github.com/TsiupiakPavlo/Real-Estate/blob/master/screenshots/s3list.JPG)
+
+- **Registration** 
+
+![Registration](https://github.com/TsiupiakPavlo/Real-Estate/blob/master/screenshots/s4reg.JPG)
+
+- **Admin Panel - 1**
+
+![Admin](https://github.com/TsiupiakPavlo/Real-Estate/blob/master/screenshots/s5adm.JPG)
+
+- **Admin Panel - 2**
+
+![Admin](https://github.com/TsiupiakPavlo/Real-Estate/blob/master/screenshots/s6r.JPG)
+
+- **About**
+
+![About ](https://github.com/TsiupiakPavlo/Real-Estate/blob/master/screenshots/s2about.JPG)
 
 ## How to run this project (Ubuntu 18.04)
 
