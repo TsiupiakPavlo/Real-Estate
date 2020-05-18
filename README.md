@@ -66,6 +66,8 @@ A simple, reponsive  website. Built with:
 
 # MODEL/DB FIELDS
 
+![Home](https://github.com/TsiupiakPavlo/Real-Estate/blob/master/screenshots/real_estate.png)
+
 ### LISTING
 - id: INT
 - realtor: INT (FOREIGN KEY [realtor])
