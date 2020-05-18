@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>8c058114-2580-425d-8d74-fa444d3cc6bd</OriginalElement>
+  <nodes>
+    <node x="2.5" y="275.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.listings_listing</node>
+    <node x="703.3379629629629" y="0.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.django_content_type</node>
+    <node x="356.0" y="905.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.django_migrations</node>
+    <node x="1075.236111111111" y="239.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_permission</node>
+    <node x="668.0" y="905.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.django_session</node>
+    <node x="884.5879629629629" y="263.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_group</node>
+    <node x="830.375" y="562.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user_user_permissions</node>
+    <node x="650.375" y="562.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user_groups</node>
+    <node x="556.7268518518518" y="155.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user</node>
+    <node x="1090.375" y="562.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_group_permissions</node>
+    <node x="0.0" y="0.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.realtors_realtor</node>
+    <node x="328.0" y="502.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.django_admin_log</node>
+    <node x="0.0" y="905.0">8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.contacts_contact</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.listings_listing" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.realtors_realtor">
+      <point x="0.0" y="-292.5" />
+      <point x="0.0" y="112.5" />
+    </edge>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user_user_permissions" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_permission">
+      <point x="60.0" y="-52.5" />
+      <point x="1010.375" y="482.0" />
+      <point x="1126.736111111111" y="482.0" />
+      <point x="-51.5" y="64.5" />
+    </edge>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_group_permissions" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_permission">
+      <point x="52.0" y="-52.5" />
+      <point x="1246.375" y="482.0" />
+      <point x="1229.736111111111" y="482.0" />
+      <point x="51.5" y="64.5" />
+    </edge>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_group_permissions" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_group">
+      <point x="-52.0" y="-52.5" />
+      <point x="1142.375" y="472.0" />
+      <point x="1005.3379629629629" y="472.0" />
+      <point x="40.25" y="40.5" />
+    </edge>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.django_admin_log" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user">
+      <point x="75.0" y="-112.5" />
+      <point x="553.0" y="482.0" />
+      <point x="606.5601851851852" y="482.0" />
+      <point x="-99.66666666666663" y="148.5" />
+    </edge>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user_user_permissions" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user">
+      <point x="-60.0" y="-52.5" />
+      <point x="890.375" y="472.0" />
+      <point x="805.8935185185185" y="472.0" />
+      <point x="99.66666666666663" y="148.5" />
+    </edge>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user_groups" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user">
+      <point x="-40.0" y="-52.5" />
+      <point x="690.375" y="482.0" />
+      <point x="706.2268518518518" y="482.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_user_groups" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_group">
+      <point x="40.0" y="-52.5" />
+      <point x="770.375" y="482.0" />
+      <point x="924.8379629629629" y="482.0" />
+      <point x="-40.25" y="40.5" />
+    </edge>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.auth_permission" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.django_content_type">
+      <point x="0.0" y="-64.5" />
+      <point x="1178.236111111111" y="130.0" />
+      <point x="847.3379629629629" y="130.0" />
+      <point x="48.0" y="52.5" />
+    </edge>
+    <edge source="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.django_admin_log" target="8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.django_content_type">
+      <point x="-75.0" y="-112.5" />
+      <point x="403.0" y="130.0" />
+      <point x="751.3379629629629" y="130.0" />
+      <point x="-48.0" y="52.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4676320272572402" x="653.0" y="577.0" />
+  <SelectedNodes>
+    <node>8c058114-2580-425d-8d74-fa444d3cc6bd.TABLE:real_estate.public.realtors_realtor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
