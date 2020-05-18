@@ -2,7 +2,7 @@
 
 Developed by ThreeMind
 
-A simple, reponsive  website. Built with:
+A simple, responsive  website. Built with:
 
 - Python
 - Django
